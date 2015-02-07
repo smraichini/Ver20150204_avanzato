@@ -16,7 +16,7 @@ int main(int argc, char** argv) {
     printf("Inserisci un valore decimale da raddoppiare: ");
     scanf("%f", &f);
     // TODO Correggi l'implementazione della procedura raddoppia
-    raddoppia(f);
+    raddoppia(&f);
     printf("Il valore raddoppiato è: %f\n", f);
     
     // SEZIONE 2 ------------------------------------------
